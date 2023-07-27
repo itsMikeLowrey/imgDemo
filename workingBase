@@ -107,8 +107,6 @@ GxEPD2_DISPLAY_CLASS < GxEPD2_DRIVER_CLASS, MAX_HEIGHT(GxEPD2_DRIVER_CLASS) > di
 #include <WiFiClient.h>
 #include <WiFiClientSecure.h>
 
-const char* ssid     = "aarg";
-const char* password = "helloitswifitime";
 const int httpPort  = 80;
 const int httpsPort = 443;
 
